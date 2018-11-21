@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Validation</title>
+</head>
+<body>
+<h1>Register</h1>
+<form action="">
+<!-- <-- First & Last Name --> 
+	<label for="fname"> First Name: </label>
+		<input id="fname" type="text" name="fname" placeholder="firstname" required> 
+	<label for="lname" > Last Name: </label>
+		<input type="text" name="lname" id="lname"required>
+<div>
+	<label for="Gender">Male</label> 
+		<input type="radio" name="GenderChoice">
+	<label for="Gender">Female</label> 
+		<input type="radio" name="GenderChoice">
+	<label for=Gender">Other</label>
+		<input type="radio" name="GenderChoice">
+</div>
+	<div>
+	<label>Email:</label>
+	<input type="email" name="email" placeholder="your email" = required>
+	<label>Password:</label>
+	<input type="Password" name="password" placeholder="your password" minlength="5" maxlength="10" required>
+<div>
+	<select name="Birthday" id="Birthday">
+		<option value ="jan"> January</option>
+		<option value ="feb"> February</option>
+		<option value ="mar"> March</option>
+	</select>
+	<select>
+		<option value="day"> 1</option>
+		<option value="day"> 2</option>
+		<option value="day"> 3</option>
+	</select>
+	<select>
+		<option value="yr"> 1990</option>
+		<option value="yr"> 1991</option>
+		<option value="yr"> 1992</option>
+	</select>
+</div>
+	<label>I agree to the terms and conditions</label>
+	<input id="agree" type="checkbox" name="agreement">
+<button>Submit</button>
+</form>
+</body>
+</html>
